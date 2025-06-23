@@ -2,8 +2,6 @@
 
 This repository contains a collection of programming projects developed for practice, proof-of-concept (PoC) exploration, and cybersecurity-themed exercises.
 
-🔀 All project directories are located in the projects branch.
-
 
 # Structure 📁
 
