@@ -1,0 +1,24 @@
+<!-- weather.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<body>
+       <h2>Weekly Forecast</h2>
+       <div class="forecast">
+           {% for forecast_group in weekly_forecast %}
+               <div class="forecast-group">
+                   <h3>{{ forecast_group.day }}, {{ forecast_group.date }}</h3>
+                   <div class="forecast-item">
+                       <p>country: {{ forecast_group.country }}</p>
+                       <p>location: {{ forecast_group.location }}</p>
+                       <p>Temperature: {{ forecast_group.temperature }}°C</p>
+                       <p>Humidity: {{ forecast_group.humidity }}%</p>
+                       <p>Wind Speed: {{ forecast_group.wind_speed }} m/s</p>
+                       <p>Description: {{ forecast_group.description }}</p>
+                   </div>
+
+               </div>
+           {% endfor %}
+       </div>
+</body>
+</html>
