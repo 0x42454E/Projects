@@ -1,16 +1,14 @@
-🧬 Projects Repository
+# Projects Repository 🧬
 
 This repository contains a collection of programming projects developed for practice, proof-of-concept (PoC) exploration, and cybersecurity-themed exercises.
 
-🔀 All project directories are located in the projects branch.
 
-
-📁 Structure
+# Structure 📁
 
 Each subdirectory represents a self-contained project, often focused on a specific topic or challenge. Some projects are standalone programs, while others are collections of exercises grouped by theme.
 
 
-🔍 Purpose
+# Purpose 🔍
 
 Strengthen core programming skills through hands-on implementation.
 
